@@ -1,1 +1,20 @@
+---
+title: "Data Analysis Project in R and Markdown"
+author: "Shawnee McKee"
+date: September 24, 2024
+format: 
+    html:
+        code-fold: true
+---
+
+
+```{r}
+install(dplyr)
+install(ggplot2)
+install(knitr)
+install(shiny)
+install(tidyverse)
+install(esquisse)
+```
+
 
