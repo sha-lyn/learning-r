@@ -32,4 +32,5 @@ Next, I download the file from Github using the RStudio console.
 
 --- 
 
+## Step 2
 
