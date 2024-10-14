@@ -6,15 +6,30 @@ format:
     html:
         code-fold: true
 ---
+## Initial RStudio Set Up Steps
+I will be including these, but with the # comment indicator. 
 
+--- 
+
+### Step 1
+
+First, I install the packages via the RStudio console. 
 
 ```{r}
-install(dplyr)
-install(ggplot2)
-install(knitr)
-install(shiny)
-install(tidyverse)
-install(esquisse)
+# install.packages("tidyverse")
+# install.packages("here")
 ```
+
+---
+
+Next, I download the file from Github using the RStudio console.
+```{r}
+# download.file(
+#  "https://raw.githubusercontent.com/datacarpentry/r-socialsci/main/episodes/data/SAFI_clean.csv",
+#  "data/SAFI_clean.csv", mode = "wb"
+#  )
+```
+
+--- 
 
 
